@@ -1,3 +1,53 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Generic Design */
+
+.half-width {
+    width: 50%;
+}
+
+.link {
+    color: #ffffff;
+    font-weight: 700;
+    padding: 20px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(#f9c784, #ff8c42);
+    border-radius: 30px;
+}
 h1 {
-    color: orange;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+/* BANNER SECTION */
+.banner {
+    display: flex;
+    margin: 40px;
+}
+.banner--left {
+    margin-left: 30px;
+}
+.banner--left h1 {
+    color: #4e598c;
+    margin-top: 140px;
+}
+.banner--left span {
+    color: #ff8c42;
+}
+.banner--left p {
+    margin: 60px;
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(82, 81, 81);
+}
+.banner--left-order {
+    margin-top: 50px;
+}
+.banner--right img {
+    float: right;
+    width: 95%;
 }
