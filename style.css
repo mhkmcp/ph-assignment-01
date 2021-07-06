@@ -83,7 +83,6 @@ p {
     margin-bottom: 30px;
     color: #4e598c;
 }
-
 .about--right p {
     margin: 50px 0;
     margin-bottom: 90px;
@@ -91,4 +90,50 @@ p {
 }
 .about--right-contact {
     margin-top: 100px;
+}
+
+/* RECIPE SECTION */
+
+.recipe {
+    display:flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+.recipe--top h2 {
+    text-align: center;
+    color: #4e598c;
+}
+.recipe--top p {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.recipe--bottom {
+    display:flex;
+    margin: 20px;
+}
+.recipe .recipe--item {
+    margin-right: 80px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px 6px #ccc;;  
+}
+.recipe .recipe--item:last-child {
+    margin-right: 0;
+}
+.recipe--bottom img {
+    margin: 30px;
+    width: 80%; 
+}
+.recipe--item h3 {
+    color: #ff8c42;
+    text-align: center;
+}
+.recipe--item h3 span {
+    color: #4e598c;
+}
+.recipe--item p {
+    width: 80%;
+    margin-left: 25px;
+    text-align: justify;
 }
