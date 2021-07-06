@@ -21,6 +21,15 @@ h1 {
     font-size: 56px;
     font-weight: 600;
 }
+h2 {
+    font-size: 46px;
+    font-weight: 600;
+}
+p {
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(82, 81, 81);
+}
 
 /* BANNER SECTION */
 .banner {
@@ -40,9 +49,6 @@ h1 {
 .banner--left p {
     margin: 60px;
     margin-left: 0;
-    font-size: 18px;
-    font-weight: 500;
-    color: rgb(82, 81, 81);
 }
 .banner--left-order {
     margin-top: 50px;
@@ -50,4 +56,39 @@ h1 {
 .banner--right img {
     float: right;
     width: 95%;
+}
+
+/* ABOUT SECTION */
+
+.about {
+    display:flex;
+    margin-left: 0;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.about--left {
+    margin: 40px;
+    height: 560px;
+}
+.about--left img {
+    height: 100%;
+    margin: 0 auto;
+    margin-left: 120px;
+}
+.about--right {
+    margin-top: 20px;
+}
+.about--right h2 {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    color: #4e598c;
+}
+
+.about--right p {
+    margin: 50px 0;
+    margin-bottom: 90px;
+    margin-right:  40px;
+}
+.about--right-contact {
+    margin-top: 100px;
 }
